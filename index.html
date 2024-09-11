@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashik's Portfolio</title>
+    <!-- Google Font -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm Ashik</h1>
+            <p>Full-Stack Developer & Designer from New York</p>
+            <button id="learnMoreBtn">Learn More</button>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <img src="ashik.jpg" alt="Ashik's Photo" class="profile-photo">
+            <p>
+                I'm Ashik, a passionate Full-Stack Developer with 5+ years of experience in building modern web applications. 
+                I specialize in creating dynamic, responsive, and user-friendly websites. In my free time, I enjoy learning new technologies 
+                and contributing to open-source projects.
+            </p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>React, Vue.js, Angular</li>
+            <li>Node.js, Express, Django</li>
+            <li>MongoDB, MySQL, PostgreSQL</li>
+            <li>UI/UX Design</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h3>DevConnect</h3>
+            <p>A social network platform for developers to connect, share projects, and collaborate. Built using React and Node.js.</p>
+        </div>
+        <div class="project-card">
+            <h3>Shopify</h3>
+            <p>An e-commerce website that allows users to browse products, add them to a cart, and purchase. Created with Vue.js and Firebase.</p>
+        </div>
+        <div class="project-card">
+            <h3>Portfolio Generator</h3>
+            <p>A tool that allows users to generate their own portfolio websites by simply filling out a form. Made with Django and Bootstrap.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+        <div class="contact-info">
+            <p><strong>Email:</strong> tntashikrahman@gmail.com</p>
+            <p><strong>Phone:</strong> +1 555 123 4567</p>
+            <p><strong>Location:</strong> New York, USA</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2024 Ashik. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
